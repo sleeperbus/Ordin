@@ -1,0 +1,23 @@
+div {
+	display: block;
+}
+
+
+.ctr-p {
+	margin: auto;
+	min-width: 980px;
+}
+
+#viewport {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.content {
+	padding-bottom: 30px;
+}
+
+#body, #footer {
+	display: block;
+}

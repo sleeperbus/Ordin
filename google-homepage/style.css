@@ -18,6 +18,12 @@ a:hover {
 	min-width: 980px;
 }
 
+#nav {
+	padding-left: 30px;
+	padding-right:30px;
+	float:right;
+}
+
 #viewport {
 	min-height: 100%;
 	position: relative;

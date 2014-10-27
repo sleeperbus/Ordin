@@ -2,89 +2,62 @@ div {
 	display: block;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-a:hover {
-	color: black;
-	text-decoration: underline;
-	opacity: 1.0;
+#logo {
+	width: 269px;
+	height: 95px;
 }
 
-
-.ctr-p {
-	margin: auto;
-	min-width: 980px;
-}
-
-#nav {
-	padding-left: 30px;
-	padding-right:30px;
-	float:right;
-}
-
-#viewport {
-	min-height: 100%;
-	position: relative;
-	width: 100%;
-}
-
-.menu {
-	display: inline-block;
-	font-family: 돋움;
-	font-size: small;
-	min-width: 60px;
-	vertical-align: middle;
-}
-
-#name {
-	text-align: right;
-	text-decoration: none;
-}
-
-#mail, #image {
+.center {
 	text-align: center;
-	min-width: 24px;
-	padding-left: 15px;
-}
-#image {
 }
 
-#box, #bell, #share {
-	background-image: url(https://ssl.gstatic.com/gb/images/v1_2e543709.png);
-	background-size: 112px 1828px;
-	height: 30px;
-	min-width: 30px;
-	opacity: 0.55;
+#searchDiv {
+	margin-top: 19px;
 }
 
-#box {
-	background-position:-51px -452px;
+#searchBox {
+	width: 560px;
+	height: 27px;
+	border: 1px solid #bbb;
 }
 
-#bell {
-	background-position:0 -69px;
+#searchButton {
+	color: #444;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-right: 8px;
+	margin-left: 8px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 8px;
+
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #f1f1f1;
+	height: 27px;
 }
 
-#share {
+.topmenu {
+	min-width: 980px;
+	width: 100%;
+	font-size: 13px;
+	color: #404040;
+	font-family: Arial;
+	height: 60px;
+	top: 0;
 }
 
-#photo {
-	background-image: url(https://lh6.googleusercontent.com/-kvz7ODFlSmA/AAAAAAAAAAI/AAAAAAAAAAA/6nfCZps6hYA/s32-c/photo.jpg);
-	background-size: 32px 32px;
-	display: inline-block;
-	height: 30px;
-	min-width: 30px;
-	vertical-align: middle;
-	border-radius: 50%;
+#navbar {
+	position: absolute;
+	top: 15px;
+	right: 30px;	
 }
 
-
-.content {
-	padding-bottom: 30px;
-}
-
-#body, #footer {
-	display: block;
+ul li {
+	display: inline;
+	margin-left: 15px;
 }

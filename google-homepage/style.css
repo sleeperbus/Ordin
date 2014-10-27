@@ -9,6 +9,7 @@ div {
 
 .center {
 	text-align: center;
+	min-height: 221px;
 }
 
 #searchDiv {
@@ -61,3 +62,22 @@ ul li {
 	display: inline;
 	margin-left: 15px;
 }
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+
+	font-weight: bold;
+	font-size: 11px;
+	color: #666;
+
+}
+
+#leftfooter {
+	float: left;
+}
+

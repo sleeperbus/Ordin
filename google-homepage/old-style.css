@@ -1,0 +1,90 @@
+div {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+	opacity: 1.0;
+}
+
+
+.ctr-p {
+	margin: auto;
+	min-width: 980px;
+}
+
+#nav {
+	padding-left: 30px;
+	padding-right:30px;
+	float:right;
+}
+
+#viewport {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.menu {
+	display: inline-block;
+	font-family: 돋움;
+	font-size: small;
+	min-width: 60px;
+	vertical-align: middle;
+}
+
+#name {
+	text-align: right;
+	text-decoration: none;
+}
+
+#mail, #image {
+	text-align: center;
+	min-width: 24px;
+	padding-left: 15px;
+}
+#image {
+}
+
+#box, #bell, #share {
+	background-image: url(https://ssl.gstatic.com/gb/images/v1_2e543709.png);
+	background-size: 112px 1828px;
+	height: 30px;
+	min-width: 30px;
+	opacity: 0.55;
+}
+
+#box {
+	background-position:-51px -452px;
+}
+
+#bell {
+	background-position:0 -69px;
+}
+
+#share {
+}
+
+#photo {
+	background-image: url(https://lh6.googleusercontent.com/-kvz7ODFlSmA/AAAAAAAAAAI/AAAAAAAAAAA/6nfCZps6hYA/s32-c/photo.jpg);
+	background-size: 32px 32px;
+	display: inline-block;
+	height: 30px;
+	min-width: 30px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+
+.content {
+	padding-bottom: 30px;
+}
+
+#body, #footer {
+	display: block;
+}

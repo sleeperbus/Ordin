@@ -1,8 +1,23 @@
 maxSize = 480;
+var safeColors = ['00','33','66','99','cc','ff'];
+
+var rand = function() {
+    return Math.floor(Math.random()*6);
+};
+
+var newColor = function() {
+	var r, g, b;
+
+    r = safeColors[rand()];
+    g = safeColors[rand()];
+    b = safeColors[rand()];
+
+    return "#"+r+g+b;
+};
+
 $(document).ready(function() {
 	newPadWithSize(16);
 });
-
 
 function makeGrid(size) {
 	blocks = "";
@@ -34,9 +49,24 @@ function newPadWithSize(size) {
 	$(".block").css("width", blockSize);
 	$(".block").css("height", blockSize);
 
-	$(".block").hover(
+	$(".block").on("mouseenter", function() {
+		oldColor = $(this).css("background-color");
+		if (oldColor == "rgb(255, 255, 255)") {
+			$(this).css("background-color", newColor());
+		} else {
+			currentOpacity = $(this).css("opacity");
+			if (currentOpacity > 0)  {
+				newOpacity = currentOpacity - 0.1;	
+				if (newOpacity < 0) newOpacity = 0;
+				$(this).css("opacity", newOpacity);
+			}
+		}
+	});
+
+/*	$(".block").hover(
 		function() {
-			$(this).addClass("hover");	
+			oldColor = $(this).css("background-color");
+			$(this).css("background-color", newColor(oldColor));
 		}
 	);
-}
+*/}

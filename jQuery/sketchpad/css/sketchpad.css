@@ -1,0 +1,21 @@
+#nav {
+	margin: 30px auto;
+	text-align: center;
+}
+
+#wrapper {
+	width: 480px;
+	height: 480px;
+	margin: 0 auto;
+	border: 1px blue solid;
+	text-align: center;
+}
+
+.block {
+/*	border: 1px green dashed;
+*/	display: inline-block;
+}
+
+.hover {
+	background-color: #f0f0f0;
+}

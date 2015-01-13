@@ -1,19 +1,40 @@
-
 def caesar_chiper(stmt, shift=0)
-  small_chars = ("a".."z").to_a
-  big_chars = ("A".."Z").to_a
-  small_int = small_chars.collect { |c| c.ord }
-  big_int = big_chars.collect { |c| c.ord }
-
-  stmt.collect do |c|
-    if (small_chars.include? c) == false && (big_chars.include? c) == false)
-      c
-    else 
-      if small_chars.include? c 
-        if c.ord - small_int.min
-      elsif big_chars.include? c 
-      end
-    end
-  end
+	smalls = ("a".."z").to_a
+	if shift <= 0
+		en_arr = smalls.collect do |c|
+			idx = smalls.index(c)
+			idx = idx - shift
+			smalls[idx]
+		end
+	else
+		en_arr = smalls.collect do |c|
+			idx = smalls.index(c) 
+			idx = idx + shift
+			if idx > (smalls.size - 1)
+				idx = idx - smalls.size
+			end
+			smalls[idx]
+		end
+	end
+	
+	result = stmt.split("").collect do |c| 
+		if smalls.include? c.downcase 
+			t = en_arr[smalls.index(c.downcase)]
+			if is_upper_case? c 
+				t.upcase
+			else
+				t
+			end
+		else 
+			c
+		end
+	end
+	result = result.join("")
 end
+
+def is_upper_case? c 
+	return c == c.upcase
+end
+
+puts caesar_chiper("What a string!", 5)
 

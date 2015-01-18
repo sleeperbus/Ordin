@@ -20,5 +20,13 @@ def minus(prices)
     return result
 end
 
-puts total([1, 2, 3, 4, 5])
-puts minus([1, 2, 3, 4, 5])
+if $0 == __FILE__ 
+  puts total([1, 2, 3, 4, 5])
+  puts minus([1, 2, 3, 4, 5])
+else
+  inputted_strings = ARGV
+  puts "You inputted: "
+  inputted_strings.each do |str|
+      puts str
+  end
+end

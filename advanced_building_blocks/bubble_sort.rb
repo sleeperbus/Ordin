@@ -1,18 +1,14 @@
 #bubble sort
 def bubble_sort(array)
-    array.each_with_index do |num, idx|
-        max = idx
-        for i in idx+1 .. array.size - 1
-            if array[idx] > array[i]
-                max = i
+    for i in 0 .. (array.size - 1)
+        for j in 0 .. (array.size - 2)
+            if array[j] > array[j+1]
+                array[j], array[j+1] = array[j+1], array[j]
             end
-        end
-        if max != idx
-            array[idx], array[max] = array[max], array[idx]
-        end
-        puts array.join(", ")
+        end 
     end
     array
 end
 
 puts bubble_sort([4,3,78,2,0,2])
+puts bubble_sort([6, 5, 4, 3, 2, 1, 7, 8, 9, 10])

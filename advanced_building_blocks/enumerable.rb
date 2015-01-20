@@ -55,4 +55,19 @@ module Enumerable
         end
         return result
     end
+    
+    def my_map 
+        result = []
+        self.my_each do |el| 
+            result << yield(el)
+        end
+        return result
+    end
+    
+    def my_inject(param = nil)
+        array = Array.new(self)
+        result = param.nil? ? array.shift : param
+        array.my_each { |el| result = yield(result, el) }
+        result
+    end
 end

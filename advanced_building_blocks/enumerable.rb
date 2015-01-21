@@ -56,10 +56,11 @@ module Enumerable
         return result
     end
     
-    def my_map 
+    def my_map(func = nil)
         result = []
+        
         self.my_each do |el| 
-            result << yield(el)
+            result << func.call(el)
         end
         return result
     end
@@ -69,5 +70,9 @@ module Enumerable
         result = param.nil? ? array.shift : param
         array.my_each { |el| result = yield(result, el) }
         result
-    end
+    end 
+end
+
+def multiply_els(arr)
+    arr.my_inject { |result, el| result *= el }
 end

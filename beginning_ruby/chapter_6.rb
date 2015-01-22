@@ -1,46 +1,5 @@
 
 
-class Person
-    def initialize(name)
-        set_name(name)
-    end
-    
-    def name 
-        @first_name + " " + @last_name
-    end
-
-    private    
-    def set_name(name)
-        first_name, last_name = name.split(/\s+/)
-        set_first_name(first_name)
-        set_last_name(last_name)
-    end
-    
-    def set_first_name(name)
-        @first_name = name 
-    end
-    
-    def set_last_name(name)
-        @last_name = name
-    end
-end
-
-class Person
-    def initialize(age)
-        @age = age
-    end
-    
-    def age 
-        @age
-    end
-    
-    def age_difference_with(other_person)
-        (self.age - other_person.age).abs
-    end
-    
-    protected :age
-end
-
 class Animal
     attr_accessor :name 
     
@@ -65,3 +24,44 @@ end
 #animals.each do |animal|
 #    puts animal.talk
 #end
+
+
+module UsefulFeatures
+    def class_name
+        self.class.to_s
+    end
+end
+
+class Person
+    include UsefulFeatures
+end
+
+class AllVowels
+   include Enumerable
+
+    @@vowels = %w{a e i o u}
+    def each 
+        @@vowels.each { |v| yield v }
+    end
+end
+
+class Song
+    include Comparable
+
+    attr_accessor :length
+
+    def <=>(other)
+        @length <=> other.length
+    end
+
+
+    def initialize(song_name, length)
+        @song_name = song_name
+        @length = length
+    end
+end
+
+
+
+
+

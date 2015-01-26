@@ -61,4 +61,5 @@ if __FILE__ == $0
 	my_dungeon.add_room(:smallcave, "Small Cave", "a small, claustrophobic cave", 
 		{:east => :largecave})
 	my_dungeon.start(:largecave)
+	my_dungeon.go(:west)
 end

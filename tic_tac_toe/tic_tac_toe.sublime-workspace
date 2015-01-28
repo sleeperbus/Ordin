@@ -1,0 +1,908 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bu",
+				"bubble_sort"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"artipa",
+				"article_path"
+			],
+			[
+				"par",
+				"partial	include partial view	erb"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"ari",
+				"article"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"commet",
+				"commenter"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"fa",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"boc",
+				"border-color"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"boriwd",
+				"border-right-width"
+			],
+			[
+				"fons",
+				"font-style"
+			],
+			[
+				"fea",
+				"feature"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"rn",
+				"rndSel"
+			],
+			[
+				"old",
+				"oldfirst"
+			],
+			[
+				"de",
+				"dequeue"
+			],
+			[
+				"test",
+				"testEnqueue"
+			],
+			[
+				"iter",
+				"testIterator"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"con",
+				"connectToTop"
+			],
+			[
+				"conn",
+				"connectToTop"
+			],
+			[
+				"x",
+				"xyTo1D"
+			],
+			[
+				"num",
+				"numOfOpenSitesToPercolates"
+			],
+			[
+				"ar",
+				"arrOfOpenedSitesCount"
+			],
+			[
+				"op",
+				"openedSitesCount"
+			],
+			[
+				"per",
+				"percol"
+			],
+			[
+				"gi",
+				"gridSize"
+			],
+			[
+				"ran",
+				"range"
+			],
+			[
+				"c",
+				"compressObj"
+			],
+			[
+				"imp",
+				"improveObj"
+			],
+			[
+				"tes",
+				"testSet"
+			],
+			[
+				"sta",
+				"startSize"
+			],
+			[
+				"data",
+				"dataSize"
+			],
+			[
+				"da",
+				"dataSize"
+			],
+			[
+				"ex",
+				"execCount"
+			],
+			[
+				"st",
+				"startSize"
+			],
+			[
+				"eag",
+				"eagerVersion"
+			],
+			[
+				"prim",
+				"primesUnder"
+			],
+			[
+				"sqr",
+				"sqrt_n"
+			],
+			[
+				"pri",
+				"primes"
+			],
+			[
+				"lar",
+				"largest_prime"
+			],
+			[
+				"prm",
+				"primes"
+			],
+			[
+				"j",
+				"j_bak"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"syna ruby",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				":br",
+				"SFTP: Browse Server…"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				":b",
+				":0 - BOF"
+			],
+			[
+				"instp",
+				"Package Control: Install Package"
+			],
+			[
+				"set sy	er",
+				"Set Syntax: ERB"
+			],
+			[
+				":ERB",
+				"Set Syntax: ERB"
+			],
+			[
+				"ERB",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"instalp",
+				"Package Control: Install Package"
+			],
+			[
+				"erb",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				":erb",
+				"Snippet: end (ERB)"
+			],
+			[
+				"insp",
+				"Package Control: Install Package"
+			],
+			[
+				":bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				":ser",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				":se",
+				"SFTP: Browse Server…"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"synjqu",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"synta jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				":rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				":inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				":brw",
+				"SFTP: Browse Server…"
+			],
+			[
+				":ed",
+				"SFTP: Edit Server…"
+			],
+			[
+				":de",
+				"Preferences: Settings - Default"
+			],
+			[
+				":user",
+				"Preferences: Settings - User"
+			],
+			[
+				":pre",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				":per",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				":edis",
+				"SFTP: Edit Server…"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sleeperbus/Dev/github/Ordin/tic_tac_toe/spec/player_spec.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/tic_tac_toe/lib/tic_tac_toe/board.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/test/retry.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/test/extest.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/beginning_ruby/chapter_8.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/beginning_ruby/chapter_6.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/beginning_ruby/Dungeon.rb",
+		"/Users/sleeperbus/Dev/github/ML_for_Hackers/06-Regularization/chapter06.R",
+		"/Users/sleeperbus/Dev/github/Ordin/advanced_building_blocks/bubble_sort.rb",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_layouts/default.html",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_scss/_highlights.scss",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_scss/_reset.scss",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_config.yml",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_scss/_variables.scss",
+		"/Users/sleeperbus/Downloads/Naver-Dic.popclipext/Config.plist",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_posts/2015-1-1-Hello-world.md",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/about.md",
+		"/Users/sleeperbus/Dev/github/sleeperbus.github.io/_layouts/post.html",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166216/startup/home/ubuntu/Dev/Temp/blogger/app/models/author.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166990/startup/home/ubuntu/Dev/Temp/blogger/config/routes.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419167229/startup/home/ubuntu/Dev/Temp/blogger/app/views/authors/show.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419168913/startup/home/ubuntu/Dev/Temp/blogger/app/views/authors/index.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169179/startup/home/ubuntu/Dev/Temp/blogger/app/views/layouts/application.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166512/startup/home/ubuntu/Dev/Temp/blogger/app/views/authors/index.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169709/startup/home/ubuntu/Dev/Temp/blogger/app/views/author_sessions/new.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419170993/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/authors_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419172022/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/tags_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419172120/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/comments_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419172173/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169571/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/author_sessions_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419172374/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/show.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166416/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/authors_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166621/startup/home/ubuntu/Dev/Temp/blogger/app/views/authors/_form.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166098/startup/home/ubuntu/Dev/Temp/blogger/db/migrate/20141221124622_sorcery_core.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419150796/startup/home/ubuntu/Dev/Temp/blogger/db/migrate/20141221083447_add_paperclip_fields_to_article.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419165893/startup/home/ubuntu/Dev/Temp/blogger/app/models/author.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419154928/startup/home/ubuntu/Dev/Temp/blogger/Gemfile",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419151577/startup/home/ubuntu/Dev/Temp/blogger/app/helpers/articles_helper.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419153151/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/show.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419151619/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_form.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419151104/startup/home/ubuntu/Dev/Temp/blogger/app/models/article.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419154049/startup/home/ubuntu/Dev/Temp/blogger/app/assets/stylesheets/style.css.scss",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419154254/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/application_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419154269/startup/home/ubuntu/Dev/Temp/blogger/app/views/layouts/application.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419154367/startup/home/ubuntu/Dev/Temp/blogger/app/assets/stylesheets/application.css",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419150296/startup/home/ubuntu/Dev/Temp/blogger/Gemfile",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419123211/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/comments_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419122331/startup/home/ubuntu/Dev/Temp/blogger/app/views/comments/_form.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419121927/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_comment.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096630/startup/home/ubuntu/Dev/Temp/blogger/app/models/comment.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419124350/startup/home/ubuntu/Dev/Temp/blogger/app/models/tag.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419093003/startup/home/ubuntu/Dev/Temp/blogger/app/helpers/articles_helper.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419094027/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_form.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096674/startup/home/ubuntu/Dev/Temp/blogger/app/models/article.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419089572/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/show.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419088021/startup/home/ubuntu/Dev/Temp/blogger/config/routes.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419148667/startup/home/ubuntu/Dev/Temp/blogger/app/views/tags/show.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087717/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419148559/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/tags_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087770/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/index.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419149407/startup/home/ubuntu/Dev/Temp/blogger/app/views/tags/index.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419122202/startup/home/ubuntu/Dev/Temp/blogger/app/views/comments",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419091303/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/new.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419093965/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/edit.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419095859/startup/home/ubuntu/Dev/Temp/blogger/app/views/layouts/application.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096511/startup/home/ubuntu/Dev/Temp/blogger/db/migrate/20141220172948_create_comments.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419095810/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/application_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419092958/startup/home/ubuntu/Dev/Temp/blogger/app/helpers/application_helper.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418913089/startup/home/ubuntu/Dev/Temp/blog/app/views/articles/new.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909690/startup/home/ubuntu/Dev/Temp/blog/app/models/article.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418908918/startup/home/ubuntu/Dev/Temp/blog/app/controllers/articles_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418913165/startup/home/ubuntu/Dev/Temp/blog/app/controllers/comments_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418908762/startup/home/ubuntu/Dev/Temp/blog/app/views/articles/edit.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909027/startup/home/ubuntu/Dev/Temp/blog/app/views/articles/index.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909759/startup/home/ubuntu/Dev/Temp/blog/config/routes.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909839/startup/home/ubuntu/Dev/Temp/blog/app/controllers/welcome_controller.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909936/startup/home/ubuntu/Dev/Temp/blog/app/views/articles/show.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418914185/startup/home/ubuntu/Dev/Temp/blog/app/views/comments/_form.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418913966/startup/home/ubuntu/Dev/Temp/blog/app/views/comments/_comment.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909362/startup/home/ubuntu/Dev/Temp/blog/app/models/comment.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909568/startup/home/ubuntu/Dev/Temp/blog/db/migrate/20141218132915_create_comments.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909546/startup/home/ubuntu/Dev/Temp/blog/config/routes.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909531/startup/home/ubuntu/Dev/Temp/blog/config/application.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909503/startup/home/ubuntu/Dev/Temp/blog/config/database.yml",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909404/startup/home/ubuntu/Dev/Temp/blog/app/views/welcome/index.html.erb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418305227/startup/home/ubuntu/Dev/github/learn_ruby/14_array_extensions/array_extensions.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1417931953/startup/var/www/learn_ruby/10_temperature_object/temperature.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1417919967/startup/var/www/learn_ruby/09_timer/timer.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1417309988/startup/var/www/learn_ruby/02_calculator/calculator.rb",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1417310065/startup/var/www/learn_ruby/02_calculator/calculator_spec.rb",
+		"/Users/sleeperbus/Dev/github/Ordin/jQuery/slider/css/slider.css",
+		"/Users/sleeperbus/Dev/github/Ordin/jQuery/slider/index.html",
+		"/Users/sleeperbus/Dev/github/Ordin/jQuery/slider/js/slider.js",
+		"/Users/sleeperbus/Dev/github/Ordin/google-homepage/index.html",
+		"/Users/sleeperbus/Dev/github/Ordin/google-homepage/style.css",
+		"/Volumes/NO NAME/BlackVue/Config/config.ini",
+		"/Users/sleeperbus/Downloads/Snowpiercer.2013.BluRay.720p.x264.DTS-HDWinG.smi",
+		"/Users/sleeperbus/Dev/github/Web/style.css",
+		"/Users/sleeperbus/Dev/github/Web/index.html",
+		"/Users/sleeperbus/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/startup",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1408936398/startup/home/ubuntu/Dev/github/Coursera-Getting-and-Cleaning-Data/run_analysis.R",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1408937003/startup/home/ubuntu/Dev/github/Coursera-Getting-and-Cleaning-Data/newdataset.txt",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1408936024/startup/home/ubuntu/Dev/github/Coursera-Reproducible-Research/README.md",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1408936090/startup/home/ubuntu/Dev/github/Coursera-Getting-and-Cleaning-Data/CodeBook.md",
+		"/Users/sleeperbus/Dev/github/Coursera-Getting-and-Cleaning-Data/run_analysis.R",
+		"/Users/sleeperbus/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/sleeperbus/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/sleeperbus/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/sleeperbus/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/sleeperbus/Dev/github/ML_for_Hackers/03-Classification/email_classify.R",
+		"/Users/sleeperbus/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/startup-v2",
+		"/Users/sleeperbus/Dev/github/ML_for_Hackers/03-Classification/data/spam/00006.5ab5620d3d7c6c0db76234556a16f6c1",
+		"/Users/sleeperbus/Dev/github/ML_for_Hackers/03-Classification/data/spam/00035.7ce3307b56dd90453027a6630179282e",
+		"/Users/sleeperbus/Dev/github/ML_for_Hackers/02-Exploration/chapter02.R",
+		"/Users/sleeperbus/Library/Caches/com.binarynights.ForkLift2/#0/router.js",
+		"/Users/sleeperbus/Library/Caches/com.binarynights.ForkLift2/#5/fixtures.js",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395717722/startup-v2/home/ubuntu/microscope/client/views/comments/comment_submit.js",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395716750/startup-v2/home/ubuntu/microscope/client/views/comments/comment.html",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395717533/startup-v2/home/ubuntu/microscope/client/views/comments/comment_submit.html",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395716888/startup-v2/home/ubuntu/microscope/client/views/comments/comment.js",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395718203/startup-v2/home/ubuntu/microscope/collections/comments.js",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395702717/startup-v2/home/ubuntu/microscope/packages/errors/errors_tests.js",
+		"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1395631487/startup-v2/home/ubuntu/microscope/lib/permissions.js",
+		"/Users/sleeperbus/algs4/week3/SelectionBars.java",
+		"/Users/sleeperbus/algs4/week2/RandomizedQueue.java",
+		"/Users/sleeperbus/algs4/week2/TestRandomizedQue.java",
+		"/Users/sleeperbus/algs4/week2/RandomizedQueue",
+		"/Users/sleeperbus/algs4/week2/LinkedStackOfStrings.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"block",
+			"baseurl",
+			"	<p>\n		<%= f.label :commenter %><br>\n		<%= f.text_field :commenter %>\n	</p>\n",
+			"degree_cesius",
+			"count",
+			"searchbox",
+			"img",
+			"foo",
+			"right",
+			"0",
+			"none",
+			"* {\n	border: 1px dashed blue;\n}\n",
+			"\n",
+			"h2",
+			"features",
+			"names",
+			"kk",
+			"names",
+			"GravityAcc",
+			"std.cols",
+			"mean.cols",
+			"color",
+			"unsave",
+			"tab",
+			"tidy.data",
+			"tidy",
+			"select",
+			"data",
+			"test.set",
+			"train.set",
+			"last",
+			"open",
+			"percolationStats",
+			"\n	",
+			"QuickFindUF",
+			"mean"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"colname.std",
+			"colname.mean",
+			"tidy",
+			"merged",
+			"data",
+			"test.data",
+			"train.data",
+			"QuickFindUFEager"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"chap6rb",
+				"Ordin/beginning_ruby/chapter_6.rb"
+			],
+			[
+				"cha06",
+				"ML_for_Hackers/06-Regularization/chapter06.R"
+			],
+			[
+				"ses",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169571/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/author_sessions_controller.rb"
+			],
+			[
+				"new",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169709/startup/home/ubuntu/Dev/Temp/blogger/app/views/author_sessions/new.html.erb"
+			],
+			[
+				"ap",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169179/startup/home/ubuntu/Dev/Temp/blogger/app/views/layouts/application.html.erb"
+			],
+			[
+				"ausec",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419169571/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/author_sessions_controller.rb"
+			],
+			[
+				"rou",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166990/startup/home/ubuntu/Dev/Temp/blogger/config/routes.rb"
+			],
+			[
+				"for",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166621/startup/home/ubuntu/Dev/Temp/blogger/app/views/authors/_form.html.erb"
+			],
+			[
+				"sho",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419167229/startup/home/ubuntu/Dev/Temp/blogger/app/views/authors/show.html.erb"
+			],
+			[
+				"au",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166216/startup/home/ubuntu/Dev/Temp/blogger/app/models/author.rb"
+			],
+			[
+				"aucon",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166416/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/authors_controller.rb"
+			],
+			[
+				"so",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419166098/startup/home/ubuntu/Dev/Temp/blogger/db/migrate/20141221124622_sorcery_core.rb"
+			],
+			[
+				"ar",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419151104/startup/home/ubuntu/Dev/Temp/blogger/app/models/article.rb"
+			],
+			[
+				"fo",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419151619/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_form.html.erb"
+			],
+			[
+				"arth",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419151577/startup/home/ubuntu/Dev/Temp/blogger/app/helpers/articles_helper.rb"
+			],
+			[
+				"in",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419149407/startup/home/ubuntu/Dev/Temp/blogger/app/views/tags/index.html.erb"
+			],
+			[
+				"taco",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419148559/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/tags_controller.rb"
+			],
+			[
+				"arcon",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087717/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb"
+			],
+			[
+				"tagcon",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419148559/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/tags_controller.rb"
+			],
+			[
+				"art",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096674/startup/home/ubuntu/Dev/Temp/blogger/app/models/article.rb"
+			],
+			[
+				"artcon",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087717/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb"
+			],
+			[
+				"show",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419089572/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/show.html.erb"
+			],
+			[
+				"arti",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096674/startup/home/ubuntu/Dev/Temp/blogger/app/models/article.rb"
+			],
+			[
+				"artih",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419093003/startup/home/ubuntu/Dev/Temp/blogger/app/helpers/articles_helper.rb"
+			],
+			[
+				"tag",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419124350/startup/home/ubuntu/Dev/Temp/blogger/app/models/tag.rb"
+			],
+			[
+				"tar",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096674/startup/home/ubuntu/Dev/Temp/blogger/app/models/article.rb"
+			],
+			[
+				"ta",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419124350/startup/home/ubuntu/Dev/Temp/blogger/app/models/tag.rb"
+			],
+			[
+				"commen",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419096630/startup/home/ubuntu/Dev/Temp/blogger/app/models/comment.rb"
+			],
+			[
+				"comm",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419121927/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_comment.html.erb"
+			],
+			[
+				"_for",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419122331/startup/home/ubuntu/Dev/Temp/blogger/app/views/comments/_form.html.erb"
+			],
+			[
+				"_com",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419121927/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_comment.html.erb"
+			],
+			[
+				"arco",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087717/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb"
+			],
+			[
+				"o",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419088021/startup/home/ubuntu/Dev/Temp/blogger/config/routes.rb"
+			],
+			[
+				"ed",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419093965/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/edit.html.erb"
+			],
+			[
+				"un",
+				"untitled"
+			],
+			[
+				"_",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419094027/startup/home/ubuntu/Dev/Temp/blogger/app/views/articles/_form.html.erb"
+			],
+			[
+				"atc",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087717/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb"
+			],
+			[
+				"con",
+				"Package Control Messages"
+			],
+			[
+				"ac",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1419087717/startup/home/ubuntu/Dev/Temp/blogger/app/controllers/articles_controller.rb"
+			],
+			[
+				"comco",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418913165/startup/home/ubuntu/Dev/Temp/blog/app/controllers/comments_controller.rb"
+			],
+			[
+				"artco",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418908918/startup/home/ubuntu/Dev/Temp/blog/app/controllers/articles_controller.rb"
+			],
+			[
+				"comcon",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418913165/startup/home/ubuntu/Dev/Temp/blog/app/controllers/comments_controller.rb"
+			],
+			[
+				"comhtm",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418913966/startup/home/ubuntu/Dev/Temp/blog/app/views/comments/_comment.html.erb"
+			],
+			[
+				"s",
+				"/var/folders/rx/vfvv9hwj2w5_3m8jry23dd900000gn/T/sublime-sftp-browse-1418909936/startup/home/ubuntu/Dev/Temp/blog/app/views/articles/show.html.erb"
+			],
+			[
+				"sy",
+				"/Users/sleeperbus/Dev/github/Ordin/google-homepage/style.css"
+			],
+			[
+				"i",
+				"/Users/sleeperbus/Dev/github/Ordin/google-homepage/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true
+}

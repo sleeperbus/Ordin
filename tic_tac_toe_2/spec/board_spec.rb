@@ -2,7 +2,8 @@
 require "spec_helper"
 
 module TicTacToe2
-    describe Board do 
+    describe Board do
+        TestCell = Struct.new(:value)
         context "#initialize" do 
             it "is initialized with any value" do
                 expect(Board.new(grid: "test").grid).to eq "test"
@@ -36,9 +37,7 @@ module TicTacToe2
         end
         
         context "#set_cell" do 
-            TestCell = Struct.new(:value)
             it "sets value by position (x, y) without default grid" do 
-                TestCell = Struct.new(:value)
                 cell = TestCell.new("me")
                 board = Board.new
                 board.set_cell(2, 1, cell.value)
@@ -56,5 +55,70 @@ module TicTacToe2
                 expect(board.get_cell(2, 1).value).to eq "you"
             end
         end
+
+        context "#draw?" do 
+            it "returns true if all cells have a value" do 
+                grid = [
+                    [TestCell.new("X"), TestCell.new("Y")],
+                    [TestCell.new("A"), TestCell.new("B")]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.draw?).to be true
+            end
+
+            it "returns false when there are some empty cell" do 
+                grid = [
+                    [TestCell.new, TestCell.new("Y")],
+                    [TestCell.new("A"), TestCell.new("B")]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.draw?).to be false
+            end
+        end
+
+        context "#winner?" do 
+            it "returns true if there is at least one straight line" do
+                grid = [
+                    [TestCell.new("X"), TestCell.new("Y"), TestCell.new("X")],
+                    [TestCell.new, TestCell.new("X"), TestCell.new("X")],
+                    [TestCell.new("X"), TestCell.new, TestCell.new]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.winner?).to be true
+            end
+
+            it "returns false if grid is empty" do 
+                grid = [
+                    [TestCell.new, TestCell.new, TestCell.new],
+                    [TestCell.new, TestCell.new, TestCell.new],
+                    [TestCell.new, TestCell.new, TestCell.new]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.winner?).to be false
+            end
+
+            it "returns false if there is no straight line" do 
+                grid = [
+                    [TestCell.new("X"), TestCell.new("Y"), TestCell.new("X")],
+                    [TestCell.new, TestCell.new("Y"), TestCell.new("X")],
+                    [TestCell.new("X"), TestCell.new, TestCell.new]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.winner?).to be false
+            end
+        end
+
+        # context "#diagonals" do 
+        #     it "returns diagonals array" do 
+        #         grid = [
+        #             [TestCell.new("1"), TestCell.new("2"), TestCell.new("3")],
+        #             [TestCell.new("4"), TestCell.new("5"), TestCell.new("6")],
+        #             [TestCell.new("7"), TestCell.new("8"), TestCell.new("9")]
+        #         ]
+        #         result = [["1", "5", "9"], ["7", "5", "3"]]
+        #         board = Board.new(grid: grid)
+        #         expect(board.diagonals.flatten.map { |cell| cell.value }).to eq result.flatten
+        #     end
+        # end
     end
 end

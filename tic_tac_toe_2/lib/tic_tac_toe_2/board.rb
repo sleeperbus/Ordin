@@ -15,6 +15,10 @@ module TicTacToe2
             get_cell(x, y).value = value
         end
 
+        def is_empty?(x, y)
+            get_cell(x, y).value.to_s.empty?
+        end
+
         def draw?
             !(grid.flatten.map { |cell| cell.value }.any_empty?)
         end
@@ -26,7 +30,13 @@ module TicTacToe2
             end
             false
         end
-        
+
+        def game_over
+            return :winner if winner?
+            return :draw if draw?
+            false
+        end        
+
         private 
         def default_grid 
             Array.new(3) { Array.new(3) { Cell.new } }    

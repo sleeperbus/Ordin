@@ -108,6 +108,46 @@ module TicTacToe2
             end
         end
 
+        context "#is_empty?" do 
+            grid = [
+                [TestCell.new("X"), TestCell.new("Y"), TestCell.new("X")],
+                [TestCell.new, TestCell.new("Y"), TestCell.new("X")],
+                [TestCell.new("X"), TestCell.new, TestCell.new]
+            ]
+            board = Board.new(grid: grid) 
+
+            it "returns true if cell(x, y) is empty" do 
+                expect(board.is_empty?(0, 1)).to be true
+            end
+
+            it "returns true if cell(x, y) is empty" do 
+                expect(board.is_empty?(0, 2)).to be false
+            end
+        end
+
+        context "#game_over" do 
+            it "returns :winner if there is straight line" do 
+                grid = [
+                    [TestCell.new("X"), TestCell.new("Y"), TestCell.new("X")],
+                    [TestCell.new, TestCell.new("X"), TestCell.new("X")],
+                    [TestCell.new("X"), TestCell.new, TestCell.new]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.game_over).to be :winner
+            end
+
+            it "returns :draw if there is straight line" do 
+                grid = [
+                    [TestCell.new("X"), TestCell.new("Y"), TestCell.new("X")],
+                    [TestCell.new("Y"), TestCell.new("X"), TestCell.new("X")],
+                    [TestCell.new("Y"), TestCell.new("X"), TestCell.new("Y")]
+                ]
+                board = Board.new(grid: grid) 
+                expect(board.game_over).to be :draw
+            end
+        end
+
+
         # context "#diagonals" do 
         #     it "returns diagonals array" do 
         #         grid = [

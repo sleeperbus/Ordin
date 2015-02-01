@@ -16,7 +16,7 @@ module TicTacToe2
         end
 
         def is_empty?(x, y)
-            get_cell(x, y).value.to_s.empty?
+            get_cell(x, y).value.empty?
         end
 
         def draw?
@@ -36,6 +36,12 @@ module TicTacToe2
             return :draw if draw?
             false
         end        
+
+        def draw_grid
+            @grid.each do |row| 
+                puts row.map { |cell| cell.value.empty? ? "_" : cell.value }.join(" ")
+            end
+        end
 
         private 
         def default_grid 

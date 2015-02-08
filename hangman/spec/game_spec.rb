@@ -29,5 +29,12 @@ module Hangman
 				expect(game.words.size).to eq 2
 			end
 		end
+
+		context "#already_input?" do 
+			it "checks user's input" do 
+				game = Game.new(["new", "world", "hello"])
+					
+			end
+		end
 	end
 end

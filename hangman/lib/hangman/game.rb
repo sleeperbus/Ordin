@@ -32,8 +32,8 @@ module Hangman
       info = "----- Information -----\n"
       info = info + "word : #{word.formatted_word}\n" 
       info = info + "You have #{word.remain_guesses.to_s} guesses\n"
-      info = info + "correct letters: [#{word.correct_letters.join(', ')}]\n"
-      info = info + "missed letters: [#{word.missed_letters.join(', ')}]\n"
+      info = info + "correct letters: [#{word.correct_letters.sort.join(', ')}]\n"
+      info = info + "missed letters: [#{word.missed_letters.sort.join(', ')}]\n"
       info = info + "-----------------------\n"
     end
 

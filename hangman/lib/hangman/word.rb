@@ -1,10 +1,10 @@
 module Hangman
 	class Word
-		attr_reader :remain_guesses, :length, :correct_letters, :missed_letters
+		attr_reader :remain_guesses, :length, :correct_letters, :missed_letters, :word
 		
 		def initialize(word)
-			@word = word
-			@remain_guesses = @word.size
+			@word = word.downcase
+			@remain_guesses = @word.length
 			@length = word.length
 			@correct_letters = []
 			@missed_letters = []  
@@ -16,7 +16,7 @@ module Hangman
 			else 
 				if @word.split("").include?(letter)
 					@correct_letters << letter
-					:ok
+					:hit
 				else
 					@missed_letters << letter
 					@remain_guesses -= 1

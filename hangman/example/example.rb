@@ -2,7 +2,8 @@
 require_relative "../lib/hangman.rb"
 
 puts "Welcome to Hangman"
-game = Hangman::Game.new(["Hello", "World", "Mac", "iphone", "ipad"])
+words = ["Hello", "World", "Mac", "iphone", "ipad"]
+game = Hangman::Game.new(words: words)
 game.play
 
 

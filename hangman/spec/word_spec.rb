@@ -12,9 +12,9 @@ module Hangman
 		end
 		
 		context "#try" do 
-			it "returns :ok when user's letter is exist" do
+			it "returns :hit when user's letter is exist" do
 				word = Word.new("iphone")
-				expect(word.try("i")).to eq :ok
+				expect(word.try("i")).to eq :hit
 			end
 			
 			it "returns :already_try when user's letter is duplicated" do

@@ -49,6 +49,7 @@ module Hangman
         else
           puts "You idiot. The word is #{@selected_word.word}"
         end 
+        @selected_word = nil
         puts "play another game?"
         answer = get_letter
         if answer != "yes"

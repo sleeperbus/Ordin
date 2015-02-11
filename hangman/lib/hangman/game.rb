@@ -1,3 +1,5 @@
+require 'yaml'
+
 module Hangman
  	class Game
     attr_reader :filename
@@ -25,7 +27,7 @@ module Hangman
     end
 
     def solicit_letter
-      "Please new letter: "
+      "Please a letter, 'save' commands will save current game: "
     end
 
     def word_info(word)
@@ -38,11 +40,34 @@ module Hangman
     end
 
     def play 
-      word = new_word
-      if play_with_a(word) == :success
-        puts "You got the word"
-      else
-        puts "You idiot. The word is #{word.word}"
+      want_to_play = true
+      while want_to_play == true
+        @selected_word ||= new_word
+        if play_with_a(@selected_word) == :success
+          puts "You got the word"
+          puts "keep playing? yes or no"
+        else
+          puts "You idiot. The word is #{@selected_word.word}"
+        end 
+        puts "play another game?"
+        answer = get_letter
+        if answer != "yes"
+          want_to_play = false
+          puts "see you next time"
+        end 
+      end  
+    end
+    
+    def save_game
+      yaml = YAML::dump(self)
+      File.open("./save.dat", "w") { |file| file.write yaml }
+    end
+    
+    def self.load_game
+      filename = File.join(__dir__, "save.dat")
+      puts "File: #{filename}"
+      if File.exist? filename
+        return YAML::load_file(filename)
       end
     end
 
@@ -52,14 +77,17 @@ module Hangman
         puts word_info(word)
         puts solicit_letter
         letter = get_letter
-        result = word.try(letter) 
-        until result != :already_try
-          puts "'#{letter}' is already tried."
-          puts solicit_letter
-          letter = get_letter
+        if letter.downcase == "save"
+          save_game
+        else         
           result = word.try(letter) 
-        end
-
+          until result != :already_try
+            puts "'#{letter}' is already tried."
+            puts solicit_letter
+            letter = get_letter
+            result = word.try(letter) 
+          end
+        end  
         puts result == :hit ? "Hit!" : "Missed!"
         if word.found_all? 
           return :success

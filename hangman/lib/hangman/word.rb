@@ -3,7 +3,7 @@ module Hangman
 		attr_reader :remain_guesses, :length, :correct_letters, :missed_letters, :word
 		
 		def initialize(word)
-			@word = word.downcase
+			@word = word.downcase.gsub(/\s+/, "")
 			@remain_guesses = @word.length
 			@length = word.length
 			@correct_letters = []

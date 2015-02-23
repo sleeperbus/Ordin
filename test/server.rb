@@ -6,8 +6,7 @@ loop {
 		method, path, protocol = client.readline.split(" ")
 		puts "method : #{method} path: #{path} protocol: #{protocol}"
 		if method == "GET"	
-		  client.puts("Hey")
-#			client.puts(File.read("index.html"))
+			client.puts(File.readlines("./index.html"))
 		else 
 			client.puts(Time.now.ctime)
 			client.puts "Closing the connection. Bye."

@@ -10,6 +10,9 @@ request = "GET #{path} HTTP/.10\r\n\r\n"
 
 socket = TCPSocket.open(host, port)
 socket.print(request)
-response = socket.gets
-headers, body = response.split("\r\n\r\n", 2)
-print body
+while line = socket.gets
+    puts line
+end
+
+#headers, body = response.split("\r\n\r\n", 2)
+#print body

@@ -8,11 +8,11 @@ class Node
 		@right_child = right_child
 	end
 
-	def is_leaf?
+	def leaf?
 		(@left_child.nil? and @right_child.nil?) ? true : false 
 	end
 
-	def is_root?
+	def root?
 		(@parent.nil?) ? true : false
 	end
 end
